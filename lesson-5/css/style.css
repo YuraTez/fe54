@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.block{
+  height: 500px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  /*
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  */
+ /* flex-direction: column;*/
+  /*justify-content: flex-start;
+  justify-content: center;
+  justify-content: flex-end;
+  justify-content: space-between;
+  justify-content: space-around;*/
+  flex-wrap: wrap;
+  /*align-items: stretch;*/
+  /*align-items: flex-start;
+  align-items: center;
+  align-items: flex-end;*/
+ /* align-items: center;*/
+}
+
+.block__item{
+  width: 200px;
+  color: white;
+  background: #e19678;
+  border: 1px solid silver;
+  padding: 30px;
+  /*flex-grow: 1;*/
+}
+
+.block__item-1{
+  order: 3;
+  /*flex-grow: 1;*/
+  flex-grow: 1;
+  align-self: flex-end;
+}
+
+.block__item-2{
+  /*flex-grow: 2;*/
+  align-self: center;
+}
+
+.block__item-3{
+ /* flex-grow: 3;*/
+  align-self: flex-start;
+}
+
+
+.card{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin-top: 100px;
+}
+
+
+.card__el{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid darkred;
+  padding: 20px;
+  background: #e19678;
+  color: white;
+  flex-shrink: 1;
+  border-radius: 10px;
+}
+
+.card__text{
+  max-width: 200px;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.card__el h2{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.card__btn--link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  background: #9857d7;
+  color: white;
+  border-radius: 5px;
+}
+
+.flex-block{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 0;
+  margin: -15px;
+}
+
+.flex-elem{
+  width: calc(100% / 3);
+  padding: 15px;
+}
+
+.flex-block--gap{
+  gap: 30px;
+  margin: 0;
+}
+
+.flex-block--gap .flex-elem{
+  width: calc((100% - 60px) / 3);
+  padding: 0;
+}
+
+.card__btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
