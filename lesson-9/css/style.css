@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Raleway:wght@100;200;300;400;500&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+}
+
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10rem 0;
+}
+.title{
+  padding: 5rem 0;
+  font-size: 3.6rem;
+}
+
+.description{
+  font-size: 1.8rem;
+}
+
+
+.list{
+  font-size: 2rem;
+}
+
+.list__el{
+  font-size: 2rem;
+}
+
+.sublist__el{
+  font-size: 2rem;
+}
+
+.button-list{
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.button-list__el{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ea7474;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+
+.button-list__el--rem{
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.8rem;
+  padding: 1rem 4rem;
+}
+
+@media (max-width: 1200px) {
+  .title{
+    font-size: 36px;
+  }
+
+  .description{
+   font-size: 18px;
+  }
+
+  /**{
+    font-size: 8px;
+  }*/
+}
+
+@media (max-width: 768px) {
+ /* *{
+    font-size: 5px;
+  }*/
+}
