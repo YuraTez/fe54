@@ -1,0 +1,19 @@
+.main{
+
+  h1{
+    position: relative;
+    font-size: $h1;
+    color: $black;
+    text-align: center;
+    padding-bottom: 50px;
+
+    &:before{
+      @extend %line
+    }
+  }
+
+  .link-btn{
+    @extend %btn;
+    margin: 50px auto 0;
+  }
+}

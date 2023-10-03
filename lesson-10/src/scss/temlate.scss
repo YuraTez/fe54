@@ -1,0 +1,31 @@
+%btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  color: $white;
+  padding: 20px;
+  font-size: $p;
+  background: $coral;
+  transition: .3s;
+  border-radius: $br;
+
+  &:hover{
+    background: $silver;
+  }
+
+  @media (max-width: 768px) {
+    background: $red;
+  }
+}
+
+%line{
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  width: 160px;
+  height: 2px;
+  background: $coral;
+}
