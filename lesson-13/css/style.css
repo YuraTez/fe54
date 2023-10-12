@@ -1,0 +1,47 @@
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-md-8,
+.col-md-6,
+.col-md-4{
+  background: orange;
+  color: black;
+  border: 2px solid silver;
+  padding: 20px;
+}
+
+.col-sm-9{
+  background: cyan;
+}
+
+.row{
+  border: 2px solid silver;
+  padding: 5px 0;
+}
+
+.row-item{
+  height: 300px;
+}
+
+.main-slider{
+  height: 500px;
+}
+
+.carousel-item img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.carousel-inner,
+.carousel-item{
+  height:100%
+}

@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Кнопка-триггер модального окна -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Запустите демо модального окна
+</button>
+
+<!-- Модальное окно -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content ">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">My title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+            </div>
+            <div class="modal-body">
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. At aut blanditiis consequatur dolorem fugiat impedit nam nulla possimus quidem temporibus.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Сохранить изменения</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="carouselExampleIndicators" class="carousel slide main-slider" data-bs-ride="true">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://images.ctfassets.net/hrltx12pl8hq/28ECAQiPJZ78hxatLTa7Ts/2f695d869736ae3b0de3e56ceaca3958/free-nature-images.jpg?fit=fill&w=1200&h=630" class="d-block w-100" alt="...">
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="container">
+    <!--Одинаковая ширина колонок -->
+    <div class="row row-block">
+        <h3><span class="orange">1</span> Одинаковая ширина колонок</h3>
+    </div>
+    <div class="row">
+        <div class="col">1</div>
+        <div class="col">2</div>
+    </div>
+    <div class="row">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+    </div>
+    <div class="row">
+        <div class="col">1</div>
+        <div class="col">2</div>
+        <div class="col">3</div>
+        <div class="col">4</div>
+    </div>
+
+    <!--Установка ширины одной колонки -->
+
+    <div class="row row-block">
+        <h3><span class="orange">2</span>Установка ширины одной колонки</h3>
+    </div>
+    <div class="row">
+        <div class="col-2">1</div>
+        <div class="col-10">2</div>
+    </div>
+    <div class="row">
+        <div class="col">1</div>
+        <div class="col-6">2</div>
+        <div class="col-2">3</div>
+    </div>
+    <div class="row">
+        <div class="col">1</div>
+        <div class="col-8">2</div>
+        <div class="col">3</div>
+    </div>
+
+    <!-- Мульти ряд-->
+    <div class="row row-block">
+        <h3><span class="orange">3</span>Мульти ряд</h3>
+    </div>
+    <div class="row">
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="w-100"></div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="w-100"></div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+    </div>
+
+    <!-- Адаптив -->
+
+    <div class="row row-block">
+        <h3><span class="orange">4</span>Адаптив</h3>
+    </div>
+    <div class="row">
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+    </div>
+    <div class="row">
+        <div class="col-6 col-sm-8 col-lg-10">col</div>
+        <div class="col-6 col-sm-4 col-lg-2">col</div>
+    </div>
+
+    <!-- Сложная комбинированная сетка -->
+     <div class="row row-block">
+         <h3><span class="orange">5</span>Сложная комбинированная сетка</h3>
+     </div>
+     <div class="row">
+         <div class="col-md-8">col md 8</div>
+         <div class="col-md-4 col-6">col-6 col-md-4</div>
+     </div>
+     <div class="row">
+         <div class="col-6 col-md-4">col-6 col-md-4</div>
+         <div class="col-4 col-md-4">col-4 col-md-4</div>
+         <div class="col-5 col-md-4">col-5 col-md-4</div>
+     </div>
+
+     Вертикальное выравнивание
+    <div class="row row-block">
+        <h3><span class="orange">6</span>Вертикальное выравнивание</h3>
+    </div>
+    <div class="row align-items-center row-start row-item">
+        <div class="col">col</div>
+        <div class="col">col</div>
+        <div class="col">col</div>
+    </div>
+    <div class="row row-start row-item">
+        <div class="col align-self-start ">col</div>
+        <div class="col align-self-center">col</div>
+        <div class="col align-self-end">col</div>
+    </div>
+
+     Горизонтальное выравнивание
+    <div class="row row-block">
+        <h3><span class="orange">7</span>Горизонтальное выравнивание</h3>
+    </div>
+    <div class="row justify-content-around row-item align-items-center">
+        <div class="col-3">col</div>
+        <div class="col-3">col</div>
+        <div class="col-3 align-self-end">col</div>
+    </div>
+
+
+     Удаление полей между калонками
+    <div class="row row-block">
+        <h3><span class="orange">8</span>Удаление полей между калонками</h3>
+    </div>
+    <div class="row gx-0">
+        <div class="col-6 col-sm-4">col</div>
+        <div class="col-6 col-sm-4">col</div>
+        <div class="col-6 col-sm-4">col</div>
+        <div class="col-6 col-sm-4">col</div>
+        <div class="col-6 col-sm-4">col</div>
+        <div class="col-6 col-sm-4">col</div>
+        <div class="col-6 col-sm-4">col</div>
+        <div class="col-6 col-sm-4">col</div>
+        <div class="col-6 col-sm-4">col</div>
+    </div>
+
+     Порядок эллемента
+    <div class="row row-block">
+        <h3><span class="orange">9</span>Порядок эллемента</h3>
+    </div>
+    <div class="row">
+        <div class="col-3 order-3">order-1</div>
+        <div class="col-3 order-1">order-2</div>
+        <div class="col-3 order-2">order-3</div>
+    </div>
+
+     Смешение колонок
+    <div class="row row-block">
+        <h3><span class="orange">10</span>Смешение колонок</h3>
+    </div>
+    <div class="row">
+        <div class="col-md-4">col-md-4</div>
+        <div class="col-md-4 offset-md-2">col-md-4</div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 offset-md-3">order-1</div>
+    </div>
+
+    <!-- Вложеность -->
+    <div class="row row-block">
+        <h3><span class="orange">11</span>Вложеность</h3>
+    </div>
+    <div class="row">
+        <div class="col-sm-9">Level-1
+            <div class="row">
+                <div class="col-8 col-sm-6">Level-2</div>
+                <div class="col-8 col-sm-6">Level-2</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
